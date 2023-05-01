@@ -1,0 +1,194 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+
+* {
+  font-family: "Poppins", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  display: fixed;
+}
+.side {
+  text-align: center;
+  border-radius: 50px;
+  background-color: #003049;
+  color: white;
+  width: 20vw;
+  line-height: 2;
+  padding-right: 5%;
+  padding: auto;
+  margin-left: -10%;
+  padding-left: 5%;
+}
+
+.register {
+  max-width: 978px;
+  width: 25vw;
+  display: flex;
+  height: 45vw;
+  justify-content: center;
+  padding-right: 0%;
+  padding-left: 0%;
+  border: 1px solid #e9ecef;
+  border-radius: 105px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  background-color: white;
+}
+
+.register span {
+  color: #adb5bd;
+}
+
+#form {
+  max-width: 220px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+.content {
+  position: absolute;
+  margin-top: 3rem;
+  width: 600px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 45vw;
+
+  padding-bottom: 0%;
+  padding-left: 0%;
+  padding-top: 0%;
+  /* border: 1px solid #e9ecef; */
+  border-radius: 95px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  background-image:url("C:\Users\vijay\deva\ui_page\src\flight-plane5 (1).jpg")
+}
+
+#form > input,
+.btn {
+  margin-top: 4px;
+  border: 3px solid #e9ecef;
+  padding: 0.9em 1em;
+  width: 100px;
+}
+
+.btn {
+  padding-left:20%;
+  background-color: #003049;
+  width: 280px;
+  color: white;
+  
+  
+}
+#form > input:focus {
+  outline: none;
+}
+
+#form > .btn {
+  background-color: #003049;
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.register .col-1 {
+  margin: auto;
+  padding-top: 5em 0;
+  padding-left: 5%;
+}
+.drop {
+  background-color:none;
+  color: #092a4b;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+
+.sc{
+  padding-right: 200%;
+  padding-bottom: 0%;
+
+
+
+}
+.air{
+  padding-right: 140%;
+  padding-bottom: 4%;
+  
+}
+.dc{
+  padding-left: 80%;
+  padding-bottom: 0%;
+
+
+}
+.heading{
+  padding-top: 50%;
+  position: relative;
+  padding-left: 5%;
+}
+.class{
+  padding-left: 80%;
+  padding-top: 0%;
+  
+}
+.first{
+  padding-top: 0%;
+  position: absolute;
+}
+.second{
+  padding-bottom: 0%;
+  
+}
+.dt{
+  padding-right: 140%;
+}
+.nos{
+  padding-left: 80%;
+  padding-bottom: 60%;
+}
+.d{
+  padding-left: 30%;
+  padding-top: 0%;
+
+}
+.third{
+  padding-bottom: 120%;
+  padding-top: 0%;
+}
+
+
+option {
+  color: #0000cc;
+}
+
+@media screen and (min-width: 860px) {
+  .register .col-2 img {
+    display: initial;
+  }
+}
